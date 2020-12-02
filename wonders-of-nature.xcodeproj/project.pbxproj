@@ -328,6 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"wonders-of-nature/Preview Content\"";
+				DEVELOPMENT_TEAM = UU72G56K4B;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "wonders-of-nature/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -348,6 +349,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"wonders-of-nature/Preview Content\"";
+				DEVELOPMENT_TEAM = UU72G56K4B;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "wonders-of-nature/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
