@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64F96BA42576EBF900B1DEAC /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F96BA32576EBF900B1DEAC /* MainController.swift */; };
+		64F96BAB2576FB8F00B1DEAC /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F96BAA2576FB8F00B1DEAC /* UIViewExtensions.swift */; };
+		64F96BB02576FE3800B1DEAC /* NatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F96BAF2576FE3800B1DEAC /* NatureCard.swift */; };
+		64F96BB42576FEE700B1DEAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F96BB32576FEE700B1DEAC /* Constants.swift */; };
+		64F96BB72576FFC600B1DEAC /* NatureCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F96BB62576FFC600B1DEAC /* NatureCardCell.swift */; };
+		64F96BBA2577842300B1DEAC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F96BB92577842300B1DEAC /* DetailsViewController.swift */; };
 		64FB5DC52576E8D40065052B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB5DC42576E8D40065052B /* AppDelegate.swift */; };
 		64FB5DC72576E8D40065052B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB5DC62576E8D40065052B /* SceneDelegate.swift */; };
 		64FB5DC92576E8D40065052B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB5DC82576E8D40065052B /* ContentView.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64F96BA32576EBF900B1DEAC /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		64F96BAA2576FB8F00B1DEAC /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		64F96BAF2576FE3800B1DEAC /* NatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureCard.swift; sourceTree = "<group>"; };
+		64F96BB32576FEE700B1DEAC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		64F96BB62576FFC600B1DEAC /* NatureCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureCardCell.swift; sourceTree = "<group>"; };
+		64F96BB92577842300B1DEAC /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		64FB5DC12576E8D40065052B /* wonders-of-nature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wonders-of-nature.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FB5DC42576E8D40065052B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64FB5DC62576E8D40065052B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64F96BA92576FB6700B1DEAC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64F96BAA2576FB8F00B1DEAC /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		64F96BAE2576FE2200B1DEAC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				64F96BAF2576FE3800B1DEAC /* NatureCard.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		64FB5DB82576E8D40065052B = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +84,19 @@
 		64FB5DC32576E8D40065052B /* wonders-of-nature */ = {
 			isa = PBXGroup;
 			children = (
+				64F96BAE2576FE2200B1DEAC /* model */,
+				64F96BA92576FB6700B1DEAC /* Extensions */,
 				64FB5DC42576E8D40065052B /* AppDelegate.swift */,
 				64FB5DC62576E8D40065052B /* SceneDelegate.swift */,
+				64F96BA32576EBF900B1DEAC /* MainController.swift */,
 				64FB5DC82576E8D40065052B /* ContentView.swift */,
 				64FB5DCA2576E8D60065052B /* Assets.xcassets */,
 				64FB5DCF2576E8D60065052B /* LaunchScreen.storyboard */,
 				64FB5DD22576E8D60065052B /* Info.plist */,
 				64FB5DCC2576E8D60065052B /* Preview Content */,
+				64F96BB32576FEE700B1DEAC /* Constants.swift */,
+				64F96BB62576FFC600B1DEAC /* NatureCardCell.swift */,
+				64F96BB92577842300B1DEAC /* DetailsViewController.swift */,
 			);
 			path = "wonders-of-nature";
 			sourceTree = "<group>";
@@ -145,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F96BB72576FFC600B1DEAC /* NatureCardCell.swift in Sources */,
+				64F96BA42576EBF900B1DEAC /* MainController.swift in Sources */,
+				64F96BBA2577842300B1DEAC /* DetailsViewController.swift in Sources */,
+				64F96BAB2576FB8F00B1DEAC /* UIViewExtensions.swift in Sources */,
 				64FB5DC52576E8D40065052B /* AppDelegate.swift in Sources */,
 				64FB5DC72576E8D40065052B /* SceneDelegate.swift in Sources */,
+				64F96BB42576FEE700B1DEAC /* Constants.swift in Sources */,
+				64F96BB02576FE3800B1DEAC /* NatureCard.swift in Sources */,
 				64FB5DC92576E8D40065052B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
